@@ -1,8 +1,0 @@
-# When connecting to your cloud deployment you should edit the host value
-elasticsearch.host: http://host.docker.internal:9200
-elasticsearch.api_key: ZHh3OFNKWUJYYzFNUjNzejZ0cXA6a2dUN2QwUjJ5QVBYYkNVNW5Tbm9XUQ==
-
-connectors:
-  - connector_id: <CONNECTOR_ID_FROM_KIBANA>
-    service_type: sharepoint_online
-    api_key: <CONNECTOR_API_KEY_FROM_KIBANA>
