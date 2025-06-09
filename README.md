@@ -32,7 +32,6 @@ python main.py
 5. Consuming the transaction data from Kafka topic and producing data to specific topics on Kafka:
 ```
 python spark-streaming.py
-
 ```
 7. Running the Streamlit app:
 ```
