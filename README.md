@@ -8,9 +8,9 @@ The system uses Python to generate and preprocess input data, PostgreSQL for rel
 ![image](https://github.com/user-attachments/assets/0d73e1cd-dda2-497c-a7b3-de3e19f3c58b)
 
 ### 3. System Components
-- main.py: This is the main Python script that creates the transactional data , it also creates the Kafka topic . It also contains the logic to consume the votes from the Kafka topic and produce data to financial_transactions topic on Kafka.
-- spark-streaming.py: This is the Python script that contains the logic to consume the votes from the Kafka topic (financial_transactions) and aggregate the votes and produce data to specific topics on Kafka.
-- streamlit-app.py: This is the Python script that contains the logic to consume the aggregated voting data from the Kafka topic and display the voting data in realtime using Streamlit.
+- main.py: This is the main Python script that creates the transactional data , it also creates the Kafka topic . It also contains the logic to consume the data from the Kafka topic and produce data to financial_transactions topic on Kafka.
+- spark-streaming.py: This is the Python script that contains the logic to consume the data from the Kafka topic (financial_transactions) and aggregate the data and produce data to specific topics on Kafka.
+- streamlit-app.py: This is the Python script that contains the logic to consume the aggregated transaction data from the Kafka topic and display the transaction data in realtime using Streamlit.
 
 ### 4. Setting up the System
 ##### Steps to Run
