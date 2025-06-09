@@ -23,17 +23,20 @@ docker-compose up -d
 This command will start Zookeeper, Kafka and Postgres containers in detached mode (-d flag). Kafka will be accessible at localhost:9092 and Postgres at localhost:6432.
 
 ##### Running the App
+
 1. Install the required Python packages using the following command:
-2. pip install -r requirements.txt
-3. Creating the data and generating transactions information on Kafka topic:
+ ```
+pip install -r requirements.txt
+```
+2. Creating the data and generating transactions information on Kafka topic:
 ```
 python main.py
 ```
-5. Consuming the transaction data from Kafka topic and producing data to specific topics on Kafka:
+3. Consuming the transaction data from Kafka topic and producing data to specific topics on Kafka:
 ```
 python spark-streaming.py
 ```
-7. Running the Streamlit app:
+4. Running the Streamlit app:
 ```
 streamlit run streamlit-app.py
 ``` 
