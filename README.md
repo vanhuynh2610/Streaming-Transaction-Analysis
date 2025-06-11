@@ -47,5 +47,4 @@ streamlit run streamlit-app.py
 
 ![Ảnh chụp màn hình 2025-06-10 190602](https://github.com/user-attachments/assets/5ab3a7a2-378c-4958-a907-1ce15eef3bf7)
 
-![Ảnh chụp màn hình 2025-06-10 190837](https://github.com/user-attachments/assets/b46a27f7-90fa-4d39-b298-e3672d13a6d0)
 
